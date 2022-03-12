@@ -1,0 +1,56 @@
+.container-footer{
+    width: 100vw;
+    height: 30vh;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;align-content: center;
+}
+.contact-us-footer{
+    width: 30%;
+    height: 100%;
+    background-color:rebeccapurple;
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+input{
+    width: 70%;
+    height: 40%;
+}
+.extra-links-footer{
+    width: 70%;
+    height: 100%;
+    background-color:rebeccapurple;
+}
+.input{
+    width: 100%;
+    height: 60%;
+}
+textarea{
+    height: 100%;
+    width: 100%;
+}
+label{
+    width: 100%;
+    height: 40%;
+}
+.extra-links-footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+.news{
+    color: blanchedalmond;
+    width: auto;
+    height: auto;
+}

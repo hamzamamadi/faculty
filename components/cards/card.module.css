@@ -1,0 +1,89 @@
+.card{
+    margin-bottom: 5%;
+    position: relative;
+    width: 15em;
+    height: 15em;
+    border: black solid 2px;
+    overflow: hidden;
+    cursor:pointer;
+}
+.card .subtitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position:absolute;
+    top: 0%;
+    width: 100%;
+    height: 2%;
+    background-color: rgba(255, 255, 255, 0);
+}
+.card .con{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position:absolute;
+    bottom: 0%;
+    width: 100%;
+    height:100%;
+   
+}
+
+.card img{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+   transition: 2s;
+}
+.sub{
+    color: white;
+    height: 0%;
+    position: absolute;
+    align-content: center;
+    justify-content: space-between;
+    display: flex;
+    bottom: 0%;
+    width: 100%;
+    transition: 0.25s;
+    
+    background-color: rgba(14, 2, 2, 0);
+
+}
+
+.sublikes{
+    display: flex;
+
+    justify-content:space-between;
+    justify-items: center;
+
+   
+}
+.sublikes svg{
+    width: 19%;
+    height: 100%;
+    vertical-align: middle;
+}
+.subviews{
+    display: flex;
+    justify-content:flex-start;
+    justify-items: center;
+   
+
+  
+}
+.imge{position: relative;
+    width: 100%;
+    height: 100%;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.548));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card:hover img{
+    mix-blend-mode: multiply;
+
+}
+.card:hover .sub{
+    height: 9%;
+}

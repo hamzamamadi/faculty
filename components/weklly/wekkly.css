@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+  
+    background-color: teal;
+}
+.main{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: center;
+width: auto;
+height: auto;
+
+}
+.part-one{
+    width: 50%;
+    height: 100%;
+}
+.main img{
+    height: 100%;
+    width: 100%;
+}
+.part-two{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+.part-two .title{
+    text-align: center;
+}
